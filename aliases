@@ -4,6 +4,7 @@ alias cask="brew cask"
 alias n="npm install"
 alias tf="terraform"
 alias y="yarn"
+alias zr=". ~/.zshrc"
 
 # general
 alias r="rm"
@@ -26,11 +27,11 @@ alias gdb="g delete-branch"
 alias gdc="g diff --cached"
 alias gfl="g fl" # flow
 alias gfli="gfl init -d" # initialises flow with default options
-alias gf="g f"   # feature
+alias gf="g f"
 alias gfs="g fs"
 alias gff="g ff"
 alias gpf="g pf"
-alias gr="g r"   # release
+alias gr="g r"
 alias grs="g rs"
 alias grf="g rf"
 alias grfn="g rf -n" # finish releoalias grb="g rebase -i"
