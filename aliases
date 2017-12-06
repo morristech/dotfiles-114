@@ -1,0 +1,50 @@
+# shortcuts
+alias b="bundle"
+alias cask="brew cask"
+alias n="npm install"
+alias tf="terraform"
+alias y="yarn"
+
+# general
+alias r="rm"
+alias rr="rm -rf"
+alias lf="less +F" # better than tail -f
+alias c="clear"
+
+# directory traversal
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+alias lsa="ls -lah"
+alias ll="ls -lh"
+alias la="ls -lAh"
+
+# git
+alias gcb="g create-branch"
+alias gdb="g delete-branch"
+alias gdc="g diff --cached"
+alias gfl="g fl" # flow
+alias gfli="gfl init -d" # initialises flow with default options
+alias gf="g f"   # feature
+alias gfs="g fs"
+alias gff="g ff"
+alias gpf="g pf"
+alias gr="g r"   # release
+alias grs="g rs"
+alias grf="g rf"
+alias grfn="g rf -n" # finish releoalias grb="g rebase -i"
+alias grbc="g rebase --continue"
+alias grba="g rebase --abort"
+alias grbl="grb HEAD~2" # git rebase lastase without tagging (for gem projects)
+alias h="hub"
+alias hb="h browse"
+alias hc="h clone"
+alias hcp="h clone -p"
+alias prq="git push -u && h pull-request"
+alias prqd="prq -b crowdlab-uk:develop"
+alias prqm="prq -b crowdlab-uk:master"
+alias s="g status"
+
+# Include private aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
