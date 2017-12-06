@@ -1,0 +1,5 @@
+# Generate a changelog for the given version
+
+changelog () {
+  github_changelog_generator --no-verbose --future-release "$1"
+}

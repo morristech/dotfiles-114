@@ -1,8 +1,11 @@
 # shortcuts
 alias b="bundle"
 alias cask="brew cask"
+alias c="clear"
+alias ci="code-insiders"
 alias n="npm install"
 alias tf="terraform"
+alias v="nvim"
 alias y="yarn"
 alias zr=". ~/.zshrc"
 
@@ -23,6 +26,9 @@ alias la="ls -lAh"
 
 # git
 alias gcb="g create-branch"
+alias gci="g ci"
+alias gcim="g ci -am"
+alias gcia="g ci --amend"
 alias gdb="g delete-branch"
 alias gdc="g diff --cached"
 alias gfl="g fl" # flow
@@ -32,6 +38,7 @@ alias gfs="g fs"
 alias gff="g ff"
 alias gpf="g pf"
 alias gr="g r"
+alias grb="g rebase -i"
 alias grs="g rs"
 alias grf="g rf"
 alias grfn="g rf -n" # finish releoalias grb="g rebase -i"
@@ -45,6 +52,8 @@ alias hcp="h clone -p"
 alias prq="git push -u && h pull-request"
 alias prqd="prq -b crowdlab-uk:develop"
 alias prqm="prq -b crowdlab-uk:master"
+alias grbd="grb develop"
+alias grbm="grb master"
 alias s="g status"
 
 # Include private aliases
