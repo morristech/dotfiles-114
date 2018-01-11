@@ -1,2 +1,4 @@
 #compdef g
 compdef g=git
+compdef gmb=git
+compdef gdb=git

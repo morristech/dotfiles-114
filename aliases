@@ -2,14 +2,15 @@
 alias b="bundle"
 alias cask="brew cask"
 alias c="clear"
-alias ci="code-insiders"
+alias co="code-insiders"
 alias n="npm install"
 alias tf="terraform"
-alias v="nvim"
+alias v="co"
 alias y="yarn"
 alias zr=". ~/.zshrc"
 
 # general
+alias ag="rg"
 alias r="rm"
 alias rr="rm -rf"
 alias lf="less +F" # better than tail -f
@@ -29,14 +30,18 @@ alias gcb="g create-branch"
 alias gci="g ci"
 alias gcim="g ci -am"
 alias gcia="g ci --amend"
-alias gdb="g delete-branch"
+alias gdb="git-delete-branch"
 alias gdc="g diff --cached"
 alias gfl="g fl" # flow
 alias gfli="gfl init -d" # initialises flow with default options
 alias gf="g f"
 alias gfs="g fs"
 alias gff="g ff"
+alias gmb="git-merge-branch"
 alias gpf="g pf"
+alias gpm="gp origin master --tags"
+alias gpd="gp origin develop --tags"
+alias gpb="gp origin master develop --tags"
 alias gr="g r"
 alias grb="g rebase -i"
 alias grs="g rs"
@@ -45,6 +50,9 @@ alias grfn="g rf -n" # finish releoalias grb="g rebase -i"
 alias grbc="g rebase --continue"
 alias grba="g rebase --abort"
 alias grbl="grb HEAD~2" # git rebase lastase without tagging (for gem projects)
+alias gsa="g stash"
+alias gsc="gsa clear"
+alias gsp="gsa pop"
 alias h="hub"
 alias hb="h browse"
 alias hc="h clone"
@@ -54,7 +62,12 @@ alias prqd="prq -b crowdlab-uk:develop"
 alias prqm="prq -b crowdlab-uk:master"
 alias grbd="grb develop"
 alias grbm="grb master"
-alias s="g status"
+alias s="g status -s"
+
+# Projects
+alias bu="bundle update"
+alias fs="foreman start"
+alias raket="rake -T"
 
 # Include private aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
