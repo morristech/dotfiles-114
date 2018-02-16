@@ -1,0 +1,51 @@
+AllCops:
+  Exclude:
+    - .bundle/**/*
+    - bin/**/*
+    - config/**/*
+    - node_modules/**/*
+    - vendor/**/*
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  TargetRailsVersion: 4.2
+  TargetRubyVersion: 2.4
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+Layout/IndentArray:
+  EnforcedStyle: consistent
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+Rails:
+  Enabled: true
+Rails/ReadWriteAttribute:
+  Enabled: false
+Style/AndOr:
+  EnforcedStyle: conditionals
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+Style/CollectionMethods:
+  PreferredMethods:
+    find: detect
+    find_all: select
+    map: collect
+    reduce: inject
+Style/Documentation:
+  Enabled: false
+Style/EachWithObject:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/Lambda:
+  Enabled: false
+Style/RegexpLiteral:
+  AllowInnerSlashes: false
+  EnforcedStyle: mixed
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Layout/TrailingBlankLines:
+  EnforcedStyle: final_newline

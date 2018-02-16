@@ -2,7 +2,7 @@
 alias b="bundle"
 alias cask="brew cask"
 alias c="clear"
-alias co="code-insiders"
+alias co="code"
 alias n="npm install"
 alias tf="terraform"
 alias v="co"
