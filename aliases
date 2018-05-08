@@ -7,6 +7,11 @@ alias n="npm install"
 alias tf="terraform"
 alias v="co"
 alias y="yarn"
+alias ybs="yarn bs"
+alias yt="yarn test"
+alias ytu="yarn test -u"
+alias tfi="terraform init -upgrade"
+alias tfa="terraform apply"
 alias zr=". ~/.zshrc"
 
 # general
